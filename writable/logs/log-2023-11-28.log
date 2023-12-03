@@ -1,0 +1,160 @@
+INFO - 2023-11-28 17:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-28 17:41:51 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Email\Email.php:1752
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Email\Email.php(1752): mail()
+#2 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\iut\TP\s5\prog_avancee\CI4-CV\app\Controllers\Contact.php(43): CodeIgniter\Email\Email->send()
+#5 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Contact->send()
+#6 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\iut\TP\s5\prog_avancee\CI4-CV\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('...')
+#10 {main}
+ERROR - 2023-11-28 17:41:51 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-11-28 17:41:51 --> 
+INFO - 2023-11-28 17:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 17:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-28 17:43:53 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Email\Email.php:1752
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Email\Email.php(1752): mail()
+#2 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\iut\TP\s5\prog_avancee\CI4-CV\app\Controllers\Contact.php(43): CodeIgniter\Email\Email->send()
+#5 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Contact->send()
+#6 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\iut\TP\s5\prog_avancee\CI4-CV\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('...')
+#10 {main}
+ERROR - 2023-11-28 17:43:53 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-11-28 17:43:53 --> 
+INFO - 2023-11-28 17:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 17:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-28 17:44:43 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Email\Email.php:1752
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Email\Email.php(1752): mail()
+#2 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Email\Email.php(1684): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Email\Email.php(1578): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\iut\TP\s5\prog_avancee\CI4-CV\app\Controllers\Contact.php(43): CodeIgniter\Email\Email->send()
+#5 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Contact->send()
+#6 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\iut\TP\s5\prog_avancee\CI4-CV\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\iut\TP\s5\prog_avancee\CI4-CV\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('...')
+#10 {main}
+ERROR - 2023-11-28 17:44:43 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-11-28 17:44:43 --> 
+INFO - 2023-11-28 17:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 17:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 17:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 17:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 17:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 17:52:05 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::reset_form()
+in APPPATH\Controllers\Contact.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Contact->send()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\iut\\TP\\s5\\prog_avancee\\CI4-CV\\public\\index.php')
+CRITICAL - 2023-11-28 17:52:06 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::reset_form()
+in APPPATH\Controllers\Contact.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Contact->send()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\iut\\TP\\s5\\prog_avancee\\CI4-CV\\public\\index.php')
+INFO - 2023-11-28 17:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 17:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 17:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 17:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 17:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 17:58:37 --> Call to undefined function App\Controllers\_get_validation_object()
+in APPPATH\Controllers\Contact.php on line 55.
+ 1 APPPATH\Controllers\Contact.php(44): App\Controllers\Contact->resetpostdata()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Contact->send()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\iut\\TP\\s5\\prog_avancee\\CI4-CV\\public\\index.php')
+INFO - 2023-11-28 17:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 17:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 17:59:52 --> Call to undefined function App\Controllers\_get_validation_object()
+in APPPATH\Controllers\Contact.php on line 55.
+ 1 APPPATH\Controllers\Contact.php(44): App\Controllers\Contact->resetpostdata()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Contact->send()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\iut\\TP\\s5\\prog_avancee\\CI4-CV\\public\\index.php')
+INFO - 2023-11-28 18:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 18:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

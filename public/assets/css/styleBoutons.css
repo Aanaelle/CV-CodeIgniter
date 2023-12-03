@@ -1,0 +1,10 @@
+input[type=submit] {
+    background-color: #320d6d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
